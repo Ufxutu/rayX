@@ -22,8 +22,8 @@ from telebot import util
 from ctypes import *
 from ctypes.wintypes import *
 
-token = '6863651218:AAGr1HfCCyDsVOVnlDzgv6yqFWJw7Yn1r8Q'
-adm = '6174145894'
+token = 'токен бота'
+adm = 'id аккаунта'
 bot = telebot.TeleBot(token)
 
 menu = types.ReplyKeyboardMarkup()
